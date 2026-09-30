@@ -2,7 +2,7 @@
 import threading
 import requests
 from flask import Flask, request, jsonify, make_response
-from flask_cors import CORS
+from flask_cors import CORSd
 from collections import defaultdict
 
 # --------------------- Flask Hook Server ---------------------
